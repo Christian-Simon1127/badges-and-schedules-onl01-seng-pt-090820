@@ -12,7 +12,7 @@ end
 
 def assign_rooms(people)
   room_arrangements = []
-  people.each |item| {
+  people.each { |item|
     add_phrase = "Hello, #{item}! You'll be assigned to room #{index+1}"
     room_arrangements << add_phrase
   }
