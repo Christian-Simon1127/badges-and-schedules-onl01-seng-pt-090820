@@ -12,6 +12,9 @@ end
 
 def assign_rooms(array)
   room_arrangements = []
-  array.each_with_index{|assignment, index| room_arrangements << ("Hello, #{array(assignment)}! You'll be assigned to room #{index}!")}
+  array.each_with_index |item, index| do
+    add_phrase = 
+    room_arrangements << 
+  end
   room_arrangements
 end
