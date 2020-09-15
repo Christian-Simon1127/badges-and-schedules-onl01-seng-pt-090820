@@ -13,4 +13,5 @@ end
 def assign_rooms(list)
   room_arrangements = []
   list.each{|assignment| room_arrangements.append("Hello, #{list(assignment)}! You'll be assigned to room #{list.index(assignment) - 1}")}
+  room_arrangements
 end
