@@ -12,6 +12,6 @@ end
 
 def assign_rooms(array)
   room_arrangements = []
-  list.each_with_index{|assignment, index| room_arrangements << ("Hello, #{list(assignment)}! You'll be assigned to room #{index}!")}
+  list.each_with_index{|assignment, index| room_arrangements << ("Hello, #{array(assignment)}! You'll be assigned to room #{index}!")}
   room_arrangements
 end
