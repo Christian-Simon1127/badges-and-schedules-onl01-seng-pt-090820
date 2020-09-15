@@ -9,3 +9,8 @@ def batch_badge_creator(array)
   array.each{|badge| new_array.append(badge_maker(badge))}
   new_array
 end
+
+def assign_rooms(list)
+  room_arrangements = []
+  list.each{|assignment| room_arrangements.append("Hello, #{list(assignment)}! You'll be assigned to room #{list.index}")}
+end
